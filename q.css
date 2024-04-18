@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+.hero {
+    background-image: url(img/Ob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.tit{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.menu {
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+}
+.menu li {
+    display: inline-block;
+}
+.texto-fondo {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(124, 121, 121);
+}
+.menu li a{
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 15px;
+    text-align: center;
+    color: white;
+}
+
+.contenedor {
+    display: flex;  
+    justify-content: space-evenly;
+}
+
+.info {
+    text-align: center;
+    align-items: center;
+    padding: 10px 0 0 0;
+    margin: 15px 25px;
+    background-color: rgb(155, 156, 156);
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.info p {
+    font-size: 15px;
+    padding: 10px;
+}
+.oferta {
+    padding: 10px;
+    text-align: center;
+    margin: 15px auto 15px;
+    border:5px solid rgb(212, 212, 212);
+    background-color: rgb(148, 163, 253);
+    border-radius: 15px;
+    width: 30%;
+}
+.oferta img{
+    width: 25%;
+    margin: 7px;
+    align-items: center;
+    border: 5px solid black;
+    transition: scale 0.5s;
+    border-radius: 70px;
+}
+.oferta img:hover {
+    transform: scale(1.1);
+}
+
+.ofe{
+    background-image: url(img/Ob.jpg);
+}
+.cont-gale {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cont-gale img {
+    width: 25%;
+    margin: 7px;
+    align-items: center;
+    border: 5px solid black;
+    transition: scale 0.5s;
+    border-radius: 70px;
+}
+
+.cont-galeria img:hover {
+    transform: scale(1.1);
+}
+footer {
+    margin-top: 15px;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
